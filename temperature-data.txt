@@ -1,0 +1,10 @@
+{"Sensor_1": {"Type": "Temperature_Sensor", "Timestamp": "1666973185", "Temperature": "40C"}}
+{"Sensor_2": {"Type": "Temperature_Sensor", "Timestamp": "1666973185", "Temperature": "38C"}}
+{"Sensor_1": {"Type": "Temperature_Sensor", "Timestamp": "1666973195", "Temperature": "41C"}}
+{"Sensor_2": {"Type": "Temperature_Sensor", "Timestamp": "1666973195", "Temperature": "39C"}}
+{"Sensor_1": {"Type": "Temperature_Sensor", "Timestamp": "1666973205", "Temperature": "41C"}}
+{"Sensor_2": {"Type": "Temperature_Sensor", "Timestamp": "1666973205", "Temperature": "41C"}}
+{"Sensor_1": {"Type": "Temperature_Sensor", "Timestamp": "1666973215", "Temperature": "42C"}}
+{"Sensor_2": {"Type": "Temperature_Sensor", "Timestamp": "1666973215", "Temperature": "42C"}}
+{"Sensor_1": {"Type": "Temperature_Sensor", "Timestamp": "1666973225", "Temperature": "40C"}}
+{"Sensor_2": {"Type": "Temperature_Sensor", "Timestamp": "1666973225", "Temperature": "43C"}}
