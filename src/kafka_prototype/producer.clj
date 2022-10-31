@@ -1,7 +1,6 @@
 (ns kafka-prototype.producer
   (:gen-class)
-  (:require [clojure.data.json :as json]
-            [clojure.java.io :as cio]
+  (:require [clojure.java.io :as cio]
             [cheshire.core :as cc-json])
   (:import
     (java.util Properties)
@@ -49,10 +48,10 @@
                            (if exception
                              (print-ex exception)
                              (print-metadata metadata))))]
-        #p(map (fn [td]
-                 (let [k  (first (keys td))
-                       v  (get td k)]
-                   (.send producer (ProducerRecord. k (cc-json/generate-string k) (cc-json/generate-string v)) callback))) messages)
+        (map (fn [td]
+               (let [k  (first (keys td))
+                     v  (get td k)]
+                 (.send producer (ProducerRecord. k (cc-json/generate-string k) (cc-json/generate-string v)) callback))) messages)
         (.flush producer)))))
 
 (defn -main [& args]
